@@ -1,0 +1,33 @@
+# Claude Code settings
+.claude/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node modules (if using npm/node in future)
+node_modules/
+
+# Python cache (if using Python in future)
+__pycache__/
+*.pyc
+*.pyo
+
+# Backup files
+*.bak
+*.backup
