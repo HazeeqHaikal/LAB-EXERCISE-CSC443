@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 4 - HTML Form</title>
+</head>
+<body>
+    <h1>CSC443</h1>
+    <h2>Student Registration Form</h2>
+    
+    <form action="submit.php" method="post">
+        <table>
+            <tr>
+                <td><label for="name">Full Name:</label></td>
+                <td><input type="text" id="name" name="name" size="30"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="text" id="email" name="email" size="30"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="text" id="phone" name="phone" size="30"></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="program">Program:</label></td>
+                <td>
+                    <select id="program" name="program">
+                        <option value="">Select Program</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="it">Information Technology</option>
+                        <option value="se">Software Engineering</option>
+                        <option value="is">Information Systems</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Interests:</label></td>
+                <td>
+                    <input type="checkbox" id="web" name="interest" value="web">
+                    <label for="web">Web Development</label><br>
+                    <input type="checkbox" id="mobile" name="interest" value="mobile">
+                    <label for="mobile">Mobile Apps</label><br>
+                    <input type="checkbox" id="database" name="interest" value="database">
+                    <label for="database">Database</label><br>
+                    <input type="checkbox" id="network" name="interest" value="network">
+                    <label for="network">Networking</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comments">Comments:</label></td>
+                <td><textarea id="comments" name="comments" rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
