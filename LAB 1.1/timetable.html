@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Timetable - Semester Schedule</title>
+    <title>My Timetable</title>
     <style>
         table {
             border-collapse: collapse;
-            width: 100%;
+            border: 3px solid black;
         }
         th, td {
-            border: 1px solid black;
-            padding: 8px;
+            border: 2px solid black;
+            padding: 10px;
             text-align: center;
         }
         th {
-            background-color: #4CAF50;
-            color: white;
+            background-color: cyan;
+            font-weight: bold;
+        }
+        .empty {
+            background-color: white;
         }
         .break {
-            background-color: #f0f0f0;
+            background-color: cyan;
+            font-weight: bold;
+        }
+        .mgt400 {
+            background-color: yellow;
+        }
+        .csc401 {
+            background-color: #cccccc;
+        }
+        .csc415 {
+            background-color: #ff66ff;
+        }
+        .mat413 {
+            background-color: #ffcccc;
+        }
+        .ctu551 {
+            background-color: red;
         }
     </style>
 </head>
 <body>
-    <h1>My Timetable - Current Semester</h1>
-    
     <table>
         <tr>
             <th>Day / Time</th>
@@ -37,60 +54,39 @@
         </tr>
         <tr>
             <th>Sunday</th>
-            <td></td>
-            <td>MGT400<br>CS2441B<br>MK D-3</td>
-            <td></td>
-            <td></td>
+            <td class="empty"></td>
+            <td class="mgt400">MGT400<br>CS2441B<br>MK D-3</td>
+            <td class="empty" colspan="2"></td>
             <td class="break" rowspan="5"><b>Break</b></td>
-            <td></td>
-            <td></td>
+            <td class="empty" colspan="2"></td>
         </tr>
         <tr>
             <th>Monday</th>
-            <td></td>
-            <td>CSC401<br>CS2441B<br>MK D-3</td>
-            <td></td>
-            <td>MAT413<br>CS4441B<br>MK B-4</td>
-            <td></td>
-            <td></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="csc401">CSC401<br>CS2441B<br>MK D-3</td>
+            <td class="mat413">MAT413<br>CS4441B<br>MK B-4</td>
+            <td class="empty" colspan="2"></td>
         </tr>
         <tr>
             <th>Tuesday</th>
-            <td>CSC415<br>CS4441B<br>MK D-2</td>
-            <td></td>
-            <td>CTU551<br>CS4441B<br>B 1-2</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class="csc415">CSC415<br>CS4441B<br>MK D-2</td>
+            <td class="empty"></td>
+            <td class="ctu551">CTU551<br>CS4441B<br>B 1-2</td>
+            <td class="empty" colspan="3"></td>
         </tr>
         <tr>
             <th>Wednesday</th>
-            <td></td>
-            <td>MAT413<br>CS4441B<br>B 3-1</td>
-            <td>MGT400<br>CS4441B<br>MK B-4</td>
-            <td>CSC401<br>CS2441B<br>MK D-3</td>
-            <td></td>
-            <td></td>
+            <td class="mat413">MAT413<br>CS4441B<br>B 3-1</td>
+            <td class="mgt400">MGT400<br>CS4441B<br>MK B-4</td>
+            <td class="csc401">CSC401<br>CS2441B<br>MK D-3</td>
+            <td class="empty" colspan="2"></td>
         </tr>
         <tr>
             <th>Thursday</th>
-            <td>CSC415<br>CS4441B<br>MK B-4</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class="csc415">CSC415<br>CS4441B<br>MK B-4</td>
+            <td class="empty" colspan="4"></td>
         </tr>
     </table>
-    
-    <br>
-    <h3>Course List:</h3>
-    <ul>
-        <li><b>MGT400</b> - Management Course</li>
-        <li><b>CSC401</b> - Computer Science Course</li>
-        <li><b>CSC415</b> - Computer Science Course</li>
-        <li><b>MAT413</b> - Mathematics Course</li>
-        <li><b>CTU551</b> - Communication/Technology Course</li>
-    </ul>
 </body>
 </html>
