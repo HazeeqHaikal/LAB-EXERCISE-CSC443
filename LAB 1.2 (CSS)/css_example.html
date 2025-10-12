@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple CSS Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    
+    <style type="text/css">
+        body {background-color:black; }
+        
+        div.page {background-color: #ffd040;
+                  color: black;
+                  margin: 50px 10px 50px 10px;
+                  padding: 10px 10px;
+                  width: 90%; height: 90%;}
+        
+        h1      {font-size: 24pt;
+                 font-family: Comic Sans Ms, Cursive;
+                 text-align: center;}
+        
+        .blackonwhite {color: black; background-color: white;}
+        .whiteonblack {color: white; background-color: black;}
+        
+        p { font-family: Arial, Sans-serif;
+            font-size: 10pt;
+            line-height: 200%;
+            text-align: justify;
+            text-indent:20px;}
+        
+        .newstyle  {color: blue; font-family: Arial; font-style: oblique;}
+        .bigsize   {font-size:x-large;}
+        #letterspace {letter-spacing: 15pt;}
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1><span class="blackonwhite">CSS</span>
+            <span class="whiteonblack">Fun</span>
+        </h1>
+        <hr/>
+        <p>With style sheets, you will be able to control the presentation of web pages with greater precision.
+           Style sheets can be used to set everything from <span class="newstyle">font styles</span> and
+           <span class="bigsize">sizes</span> to <span id="letterspace">letter spacing</span>and line heights.
+        </p>
+    </div>
+</body>
+</html>

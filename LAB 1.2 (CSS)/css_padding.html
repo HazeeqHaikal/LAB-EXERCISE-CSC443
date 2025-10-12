@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Padding Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <style type="text/css">
+        #one {
+            background-color: yellow;
+            border-style: double;
+            border-width: medium;
+            padding-left: 1cm;
+            padding-right: 5cm;
+        }
+        
+        #two {
+            background-color: yellow;
+            border-style: double;
+            border-top: medium;
+            padding-bottom: 1em;
+            padding-right: 1cm;
+        }
+        
+        #three {
+            background-color: yellow;
+            border-style: double;
+            border-width: medium;
+            padding: 1cm 1cm;
+            margin: .5cm 4cm;
+        }
+    </style>
+</head>
+<body>
+    <p id="one">This paragraph of text has padding on the left and right, but not on the top and bottom.</p>
+    <p id="two">This paragraph has padding, but this time only on the top and bottom.</p>
+    <p id="three">Be careful when using margins. they don't necessarily apply to the
+                  text within the box, but to the box itself</p>
+</body>
+</html>
