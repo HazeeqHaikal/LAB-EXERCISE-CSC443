@@ -19,12 +19,19 @@ Introduction to PHP programming covering variables, data types, strings, control
 ### LAB 4
 PHP form handling and session management, including HTML forms, form processing, page navigation, and modular code with includes.
 
+### LAB 5
+PHP arrays and array manipulation including indexed arrays, associative arrays, sorting algorithms, array functions, and practical data processing exercises.
+
+### LAB 6
+MySQL database fundamentals covering database creation, table design, SQL queries, data insertion, relationships (foreign keys), and generating reports with JOIN operations.
+
 ## 🚀 Getting Started
 
 1. Clone this repository
 2. Navigate to the desired lab folder
 3. Open any `.html` file in a web browser (for HTML/CSS/JS labs)
-4. For PHP labs (LAB 3 & 4), you'll need a local server environment (e.g., XAMPP, WAMP, or similar)
+4. For PHP labs (LAB 3, 4 & 5), you'll need a local server environment (e.g., XAMPP, WAMP, or similar)
+5. For LAB 6, you'll need MySQL server running (typically included in XAMPP/WAMP)
 
 ## 🛠️ Technologies
 
@@ -32,6 +39,7 @@ PHP form handling and session management, including HTML forms, form processing,
 - CSS3
 - JavaScript (Vanilla)
 - PHP
+- MySQL
 
 ## 📝 Notes
 
@@ -43,4 +51,4 @@ Each lab folder contains exercises and examples that build upon previous concept
 UiTM Student - CSC443 Web Programming
 
 ---
-*Last updated: November 2025*
+*Last updated: December 2025*
