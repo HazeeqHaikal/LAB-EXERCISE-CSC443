@@ -25,13 +25,16 @@ PHP arrays and array manipulation including indexed arrays, associative arrays, 
 ### LAB 6
 MySQL database fundamentals covering database creation, table design, SQL queries, data insertion, relationships (foreign keys), and generating reports with JOIN operations.
 
+### LAB 7
+PHP and MySQL integration featuring database connectivity, user registration system, data validation, dynamic content display, and CRUD operations with secure database interactions.
+
 ## 🚀 Getting Started
 
 1. Clone this repository
 2. Navigate to the desired lab folder
 3. Open any `.html` file in a web browser (for HTML/CSS/JS labs)
 4. For PHP labs (LAB 3, 4 & 5), you'll need a local server environment (e.g., XAMPP, WAMP, or similar)
-5. For LAB 6, you'll need MySQL server running (typically included in XAMPP/WAMP)
+5. For LAB 6 & 7, you'll need MySQL server running (typically included in XAMPP/WAMP)
 
 ## 🛠️ Technologies
 
