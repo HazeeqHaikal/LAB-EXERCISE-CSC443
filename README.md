@@ -28,13 +28,23 @@ MySQL database fundamentals covering database creation, table design, SQL querie
 ### LAB 7
 PHP and MySQL integration featuring database connectivity, user registration system, data validation, dynamic content display, and CRUD operations with secure database interactions.
 
+### LAB 8
+User authentication and authorization system with session management, implementing login/logout functionality, role-based access control (admin/user levels), and secure password handling with MD5 encryption.
+
+### LAB 9
+Advanced session management and user interface development, featuring photo gallery functionality, dynamic menu systems based on user roles, and comprehensive user session tracking.
+
+### LAB 10
+Object-Oriented Programming (OOP) in PHP covering classes, objects, constructors, access modifiers (public, private, protected), inheritance, encapsulation, and method visibility.
+
 ## 🚀 Getting Started
 
 1. Clone this repository
 2. Navigate to the desired lab folder
 3. Open any `.html` file in a web browser (for HTML/CSS/JS labs)
 4. For PHP labs (LAB 3, 4 & 5), you'll need a local server environment (e.g., XAMPP, WAMP, or similar)
-5. For LAB 6 & 7, you'll need MySQL server running (typically included in XAMPP/WAMP)
+5. For LAB 6, 7, 8 & 9, you'll need MySQL server running (typically included in XAMPP/WAMP)
+6. For LAB 10, you'll need a PHP server environment to run OOP examples
 
 ## 🛠️ Technologies
 
