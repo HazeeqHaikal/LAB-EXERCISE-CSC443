@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-// Check if the user is logged in, if not then redirect him to login page
 if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     header("location: login.php");
     exit;
@@ -9,6 +8,11 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
 $usrlevel = $_SESSION["userlevel"];
 $usrname = $_SESSION["username"];
+
+// About Us might be restricted to Admin only (Optional Check)
+if ($usrlevel != 1) {
+    // echo "Access Denied for regular users.";
+}
 ?>
 
 <!DOCTYPE html>
@@ -16,8 +20,7 @@ $usrname = $_SESSION["username"];
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
@@ -33,12 +36,8 @@ $usrname = $_SESSION["username"];
     }
     ?>
 
-    <div class="jumbotron">
-        <h1 class="display-4">Welcome <?php echo htmlspecialchars($usrname); ?> to My Home Page</h1>
-        <p class="lead">This is my website.</p>
-        <hr class="my-4">
-        <img class="img-fluid rounded img-thumbnail" src="image/banner.jpg" alt="Banner" style="max-height: 300px;">
-    </div>
+    <h1>About Us</h1>
+    <p>This page contains information about our organization.</p>
 </body>
 
 </html>
